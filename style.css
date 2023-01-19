@@ -4,11 +4,9 @@ body {
     padding: 4em;
     font-size: 18px;
     text-align: center;
-    background-color: cadetblue;
+    background-color: #FEFBEA;
   }
-h1{
-    
-}
-p{
-    
+.Title{
+  font-weight: 400;
+  color:lime;
 }
