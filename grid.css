@@ -1,0 +1,45 @@
+body{
+    background-color: whitesmoke;
+}
+.Set_Grid{
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+
+}
+
+.Set_Grid div{
+    min-height: 5px;
+}
+
+.Set_Grid div:nth-child(1){
+    background-color: Red;
+    grid-column: 1/3;
+}
+.Set_Grid div:nth-child(2){
+    background-color: green;
+    width: 200px;
+    margin: 0px 25% 0px 25%;
+}
+.Set_Grid div:nth-child(3){
+    background-color: green;
+    width: 200px;
+    margin: 0px 25% 0px 25%;
+}
+.Set_Grid div:nth-child(4){
+    background-color: yellow;
+    width: 200px;
+    margin: 0px 25% 0px 25%;
+}
+.Set_Grid div:nth-child(5){
+    background-color: yellow;
+    width: 200px;
+    margin: 0px 25% 0px 25%;
+}
+.Set_Grid div:nth-child(6){
+    background-color: blue;
+    grid-column: 1/3;
+}
