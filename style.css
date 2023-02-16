@@ -6,6 +6,9 @@ body {
     text-align: center;
     background-color: #FEFBEA;
   }
+body a:hover{
+  color: black;
+}
 .Title{
   font-weight: 400;
   color:lime;
