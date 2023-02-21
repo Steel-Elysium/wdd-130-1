@@ -1,0 +1,11 @@
+:root{
+    --Primary-Color: #e8e8e8;
+    --Secondary-Color: #53568a;
+    --Accent1-Color: #540B0C;
+    --Accent2-Color: #DFD7C8;
+    font-family: verdana, Arial, sans-serif;
+}
+body{
+    color: var(--Accent1-Color);
+    background-color: var(--Primary-Color)
+}
