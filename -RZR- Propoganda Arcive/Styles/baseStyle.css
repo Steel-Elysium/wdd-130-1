@@ -1,0 +1,36 @@
+:root{
+    --Primary-Color: #e8e8e8;
+    --Secondary-Color: #53568a;
+    --Accent1-Color: #540B0C;
+    --Accent2-Color: #DFD7C8;
+    font-family: verdana, Arial, sans-serif;
+}
+body{
+    color: var(--Accent1-Color);
+    background-color: var(--Primary-Color)
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.image{
+    width: 300px;
+    margin: 0   auto
+}
+.North{
+    grid-column: 1;
+    grid-row: 1;
+}
+.Op-Spring{
+    grid-column: 1;
+    grid-row: 2;
+}
+.Jackdaw{
+    grid-row: 1;
+    grid-column: 2;
+}
+.PSA{
+    grid-row: 2;
+    grid-column: 2;
+}
