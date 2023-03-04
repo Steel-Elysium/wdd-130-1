@@ -48,7 +48,7 @@ header a:hover{
     margin-top: 100px;
 }
 #Hero-msg h1, h4{
-    color: var(--paragraph-color-on-color);
+    color: var(--paragraph-color-on-white);
 }
 #Hero-box{
     grid-column: 2/4;

@@ -1,0 +1,116 @@
+:root{
+    --primary-color: #392f5a   ;
+    --secondary-color: #9dd9d2 ;
+    --accent1-color: #ff8811;
+    --accent2-color: #fff8f0;
+    --base-Background-color: #999;
+    --headline-color-on-white: #392f5a;  /* headlines on a white background */ 
+    --headline-color-on-color: #fff8f0; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #392f5a; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #fff8f0; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #392f5a  ;
+    --nav-link-color: #392f5a;
+    --nav-background-color: #f4d06f;
+    --nav-hover-link-color: #ff8811;
+    --nav-hover-background-color: #392f5a;
+}
+
+body{
+    background-color: var(--base-Background-color);
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    display: grid;
+    grid-template-columns: 150px auto;
+
+}
+header a:hover{
+    background-color: var(--nav-hover-link-color);
+}
+#Logo-Link{
+    padding-top: 5px;
+    display: inline;
+}
+.Logo{
+    max-width: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color:var(--nav-link-color);
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    color: var(--nav-link-color);
+}
+main{
+    text-align: center;
+}
+.river-grid{
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+}
+.pic-river{
+    grid-column: 2;
+    grid-row: 1;
+    border: 10px solid var(--accent2-color);
+}
+.river-msg{
+    grid-column: 2;
+    grid-row: 1;
+}
+footer{
+    margin-top: 200px;
+    padding: 25px 50px;
+    background-color: var(--primary-color);
+    color: var(--paragraph-color-on-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p:hover{
+    text-decoration: underline;
+}
+footer a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--accent1-color);
+}
+footer .scocal img{
+    padding-top: 15px;
+}
+.book:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.book{
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.button-box{
+    text-align: center;
+}
+main section a:hover{
+    background-color: var(--nav-hover-link-color);
+}
+.river-title{
+    color: var(--headline-color-on-white);
+}
