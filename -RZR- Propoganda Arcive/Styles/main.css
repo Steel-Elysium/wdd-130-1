@@ -1,0 +1,18 @@
+:root{
+    --Primary-Color: #e8e8e8;
+    --Secondary-Color: #53568a;
+    --Accent1-Color: #540B0C;
+    --Accent2-Color: #DFD7C8;
+    font-family: verdana, Arial, sans-serif;
+}
+body{
+    background: url("../img/background_img.jpg") no-repeat top left fixed;
+    padding: 20px;
+}
+nav{
+    height: 36px;
+}
+.background{
+    height: 100vh;
+    background: var(--Primary-Color);
+}
