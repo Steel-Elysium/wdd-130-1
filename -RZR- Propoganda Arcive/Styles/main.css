@@ -3,16 +3,8 @@
     --Secondary-Color: #53568a;
     --Accent1-Color: #540B0C;
     --Accent2-Color: #DFD7C8;
+    --Devide-Color: #A3A5A3;
+    --Bace-Color: #C5C7C6;
+    font-size: 12;
     font-family: verdana, Arial, sans-serif;
-}
-body{
-    background: url("../img/background_img.jpg") no-repeat top left fixed;
-    padding: 20px;
-}
-nav{
-    height: 36px;
-}
-.background{
-    height: 100vh;
-    background: var(--Primary-Color);
 }
