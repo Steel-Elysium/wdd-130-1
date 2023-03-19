@@ -5,7 +5,7 @@
     --Accent2-Color: #DFD7C8;
     --Devide-Color: #A3A5A3;
     --Bace-Color: #C5C7C6;
-    font-size: 12;
+    font-size: 18px;
     font-family: verdana, Arial, sans-serif;
 }
 body{
@@ -39,7 +39,7 @@ nav div{
     border: 1px solid var(--Accent1-Color);
 }
 .background{
-    height: 100vh;
+    /* height: 100vh; */
     background: var(--Primary-Color);
     box-shadow: 5px 0px 10px 0px rgb(10 10 10 / 50%), -5px 0px 10px 0px rgb(10 10 10 / 50%);
 }
